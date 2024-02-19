@@ -15,7 +15,7 @@ function generateMarkdown(data) {
  ${data.installation}
 ## Usage
  ${data.usage}
-##License
+## License
  ${data.license}
 ## Github Profile 
  Git Hub (https://github.com/${data.git})

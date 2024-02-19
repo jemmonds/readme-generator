@@ -54,7 +54,6 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(
         (answers) => {
-            console.log(answers);
             const exampleFile = generateMarkdown(answers);
             fs.writeFile("README2.md", exampleFile, (err) => err ? console.log(err) : console.log("Success!"));
         }
